@@ -6,7 +6,7 @@ export type Produit = {
   prix: number;
   categorie: Categorie;
   stock: number;
-  image?: string
+  image?: string;
 };
 
 export type LignePanier = {
